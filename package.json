@@ -13,17 +13,17 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-"scripts": {
-  "build": "react-scripts build",
-  "start": "concurrently \"npm run start:react\" \"npm run start:json-server\"",
-  "start:react": "react-scripts start",
-  "start:json-server": "json-server --watch src/Components/db.json --port 5000",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "concurrently \"npm run start:react\" \"npm run start:json-server\"",
+    "start:react": "react-scripts start",
+    "start:json-server": "json-server --watch src/Components/db.json --port 5000",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -31,8 +31,8 @@
     ]
   },
   "engines": {
-  "node": ">=18.18.0 <19.0.0"
-},
+    "node": ">=18.18.0 <19.0.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
