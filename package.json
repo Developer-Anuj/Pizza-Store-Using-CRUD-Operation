@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "npm install && react-scripts build",
     "start": "concurrently \"npm run start:react\" \"npm run start:json-server\"",
     "start:react": "react-scripts start",
     "start:json-server": "json-server --watch src/Components/db.json --port 5000",
